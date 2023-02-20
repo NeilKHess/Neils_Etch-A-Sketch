@@ -1,0 +1,26 @@
+
+
+1) Make a 16 x 16 grid of divs using JS.  Will probably need to use a "do While" loop for this.
+
+2) Make the grid inside one large "box" container
+
+3) Make a hover effect that changes the color of the boxes (Random color 256 ex)
+
+4) MAke a popup asking the user to change the number of squares per side (ie 10 x 10 grid , 22 x 22 grid) that uses the same total pixel space as the prior grid (960 px x 960...will need to have a function that devides the pixels by desired dimensions to calculate square size)
+
+
+
+
+function makeDivs(side, tailLengt){
+let side = s;
+    each box needs to be (960px/side dimension) divs wide and high (need to find a rounding % solution)
+(make box of divs s * s)
+insert these divs into grid container div
+}
+
+//Hover Effect
+Make each box class have an event listener for mousehover
+let mouse hover select a random RGB value 0-256
+
+//tail effect
+Have a "teil length" function that allows the user to select how long they want to make the "tail".  MAx will need to be grid surface area, and need a function to delete every tail pixel decending after user input

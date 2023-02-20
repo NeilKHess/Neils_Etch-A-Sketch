@@ -1,0 +1,23 @@
+body{
+        background: rgb(73, 88, 143);
+}
+
+#gridArea {
+        display: grid;
+        background-color: rgb(229, 225, 225);
+        width: 960px;
+        height: 960px;
+        margin: 0px;
+        padding: 0px;
+}
+
+.oneSquare{
+        background-color: limegreen;
+        margin: 0px;
+        padding: 0px;
+        opacity: 25%;
+}
+
+.revealed{
+        opacity: 100%
+}
